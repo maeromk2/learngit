@@ -1,5 +1,8 @@
 <?php
-require(dirname(__FILE__).'/Cache.class.php'); 
+require(dirname(__FILE__).'/Cache.class.php');
+
+
+
 
 class DingtalkModel {
 	private $corpid;
@@ -18,7 +21,7 @@ class DingtalkModel {
 		$this->agentid = AGENTID;
 
 		$this->cache = new Cache(7100, dirname(dirname(__FILE__)).'/cache/');
-		
+		//user test
 		return;
 	}	
 	
